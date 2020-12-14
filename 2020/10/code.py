@@ -1,6 +1,9 @@
+import datetime
+
 # Advent of code Year 2020 Day 10 solution
 # Author = ?
 # Date = December 2020
+
 
 def validate(arr, start_from=0, debug=False):
     diffs = []
@@ -48,7 +51,7 @@ if __name__ == '__main__':
     numbers.sort()
 
     validate(numbers, 0, True)
-    import datetime
+
     now = datetime.datetime.now()
     x = recursive(numbers)
 
